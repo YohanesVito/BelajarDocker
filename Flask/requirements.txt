@@ -1,4 +1,4 @@
 paho-mqtt
-flask_sqlalchemy
-flask_restful
+flask-sqlalchemy
+flask-restful
 flask-mysqldb
