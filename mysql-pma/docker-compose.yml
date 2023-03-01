@@ -4,9 +4,9 @@ volumes:
   mariadb:
     driver: local
 
-# networks:
-#     db:
-#         driver: bridge
+networks:
+    db:
+        driver: bridge
 
 services:
   mariadb:
