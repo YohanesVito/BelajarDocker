@@ -1,8 +1,8 @@
 version: '3'
 
-# volumes:
-#   mariadb:
-#     driver: local
+volumes:
+  mariadb:
+    driver: local
 
 # networks:
 #     db:
