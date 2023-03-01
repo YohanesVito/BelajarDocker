@@ -22,7 +22,7 @@ services:
         - "3306:3306"
     volumes:
      - mariadb:/var/lib/mysql
-     - mariadb:/var/run/mysqld
+     - mariadb:/var/lib/mysql/mysql.sock
     # networks:
     #   db:
 
